@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      background-image: url("Морозные узоры.jpg");
+      background-repeat: repeat;
+    }
+
+    #list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 600px;
+      overflow: hidden;
+      background-color: #130a76;
+      border: solid 3px black;
+      border-radius: 5px;
+    }
+
+    .butt {
+      float: left;
+    }
+
+    .butt .buttA {
+      display: block;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    }
+
+    .buttA:link {
+      background-color: white;
+      border: solid 3px blue;
+      border-radius: 15px;
+      box-shadow: 5px 10px 20px rgb(64, 173, 216) inset;
+      padding: 16px 45px 30px 16px;
+      color: blue;
+  
+}
+
+.buttA:visited {
+      background-color: rgb(52, 216, 227);
+      border: solid 3px white;
+      border-radius: 15px;
+      padding: 16px 45px 30px 16px;
+      color: white;
+  
+}
+
+    .buttA:hover {
+      background-color: white;
+      border: solid 3px rgb(91, 110, 233);
+      border-radius: 15px;
+      box-shadow: 5px 10px 20px rgb(91, 110, 233) inset;
+      padding: 16px 45px 30px 16px;
+      color: blue;
+      font-style: italic;
+    }
+
+    .buttA:active {
+      background-color: white;
+      border: solid 3px green;
+      border-radius: 15px;
+      box-shadow: 5px 10px 20px green inset;
+      padding: 16px 45px 30px 16px;
+      color: rgb(27, 192, 15);
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <ul id="list">
+    <li class="butt"><a class="buttA" href="#home">Home</a></li>
+    <li class="butt"><a class="buttA" href="#news">News</a></li>
+    <li class="butt"><a class="buttA" href="#contact">Contact</a></li>
+    <li class="butt"><a class="buttA" href="#about">About</a></li>
+  </ul>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {background-color: green;}
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}
+
+.menu1 {background-color: green;
+margin-top: 100px;}
+.menu1 .menu1a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+.menu1ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.menu1li {display: inline-block;}
+.menu1li:hover {background: #555;}
+.menu1li:hover ul {display: block;}
+.menu1ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+.menu1li { 
+  background: #555; 
+  display: block; 
+}
+.menu1a1 {display:block !important;} 
+.menu1li:hover {background: #666;}
+</style>
+</head>
+<body>
+
+<div>
+  <a href="#">Useless Link</a>
+  <ul>
+    <li>
+      <a href="#">Dropdown Link</a>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="menu1">
+  <a class="menu1a"  href="#">Useless Link1</a>
+  <ul class="menu1ul">
+    <li class="menu1li">
+      <a class="menu1a" href="#">Dropdown Link1</a>
+      <ul class="menu1ul">
+        <li class="menu1li"><a class="menu1a1" href="#">Link 11</a></li>
+        <li class="menu1li"><a class="menu1a1" href="#">Link 21</a></li>
+        <li class="menu1li"><a class="menu1a1" href="#">Link 31</a></li>
+      </ul class="menu1ul">
+    </li class="menu1li">
+  </ul class="menu1ul">
+</div>
+
+</body>
+</html>

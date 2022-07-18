@@ -1,0 +1,161 @@
+body {width: 5000px;
+    height: 5000px;
+    font-size: 100%;
+}
+
+span {
+    position: fixed;
+    top: 20px;
+    left: 50px;
+    display: inline-block;
+    width: 300px;
+    border: 1px solid rgb(26, 9, 101);
+    border-radius: 5px;
+}
+
+.top1 {
+    text-align: center;
+    border-bottom: 1px solid rgb(26, 9, 101);
+    border-radius: 5px;
+    width: inherit;
+    background-image: linear-gradient(rgb(223, 232, 233), rgb(64, 66, 64));
+}
+
+#logoLB {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#nameMain {
+    font-style: italic;
+}
+
+#nameOwn {
+    font-size: 2em;
+    font-family: cursive;
+    color: #9bea3b;
+}
+
+.middle {
+    position: relative;
+    border-bottom: 0px;
+    border-top: 0px;
+    padding-top: 20px;
+}
+
+#logoGr {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 40px;
+    padding-left: 20px;
+}
+
+.a {
+    position: relative;
+    top: -10px;
+    left: 50px;
+    display: inline-block;
+    font-size: 3em;
+    width: 80px;
+    color: rgb(84, 136, 195);
+    border: 0px;
+}
+
+.b {
+    font-size: 3em;
+    color: rgb(84, 136, 195);
+    padding-left: 20px;
+    margin: 0;
+}
+
+.name1 {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.3em;
+    color: #25dc2c;
+    padding: 0 0 10px 20px;
+    margin: 0;
+}
+
+.text1 {
+    text-align: left;
+    padding-right: 20px;
+    margin: 0;
+}body {
+    font-size: 100%;
+}
+
+span {
+    display: inline-block;
+    width: 300px;
+    border: 1px solid rgb(26, 9, 101);
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.top1 {
+    text-align: center;
+    border-bottom: 1px solid rgb(26, 9, 101);
+    border-radius: 5px;
+    width: inherit;
+    background-image: linear-gradient(rgb(223, 232, 233), rgb(64, 66, 64));
+}
+
+#logoLB {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#nameMain {
+    font-style: italic;
+}
+
+#nameOwn {
+    font-size: 2em;
+    font-family: cursive;
+    color: #9bea3b;
+}
+
+.middle {
+    border-bottom: 0px;
+    border-top: 0px;
+    padding-top: 20px;
+}
+
+#logoGr {
+    width: 40px;
+    padding-left: 20px;
+}
+
+.a {
+    display: inline-block;
+    font-size: 3em;
+    width: 80px;
+    color: rgb(84, 136, 195);
+    border: 0px;
+}
+
+.b {
+    font-size: 3em;
+    color: rgb(84, 136, 195);
+    padding-left: 20px;
+    margin: 0;
+}
+
+.name1 {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.3em;
+    color: #25dc2c;
+    padding: 0 0 10px 20px;
+    margin: 0;
+}
+
+.text1 {
+    text-align: left;
+    padding-right: 20px;
+    margin: 0;
+}
